@@ -1,0 +1,32 @@
+{
+  "name": "mvaliolahi/translator",
+  "description": "Another library to achieve translation in your beautiful application!",
+  "keywords": [
+    "Translation",
+    "Translator",
+    "MultiLanguage",
+    "Language"
+  ],
+  "homepage": "https://mvaliolahi.ir",
+  "authors": [
+    {
+      "name": "Meysam Valiolahi",
+      "email": "mvaliolahi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mvaliolahi\\Translator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "minimum-stability": "dev"
+}
